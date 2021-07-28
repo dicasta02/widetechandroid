@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Widetech</string>
+    <string name="allAccept">Accept</string>
+    <string name="allNoInternet">No internet connection.</string>
+    <string name="txtTitle">¡Empieza a disfrutar de nuestra App!</string>
+    <string name="btnLogin">INICIAR SESION</string>
+    <string name="btnCreateAccount">CREAR CUENTA</string>
+    <string name="btnBack">REGRESAR</string>
+    <string name="btnLoginFacebook">Login con Facebook</string>
+    <string name="txtInConstruction">Pantalla en Construccion</string>
+    <string name="txtInfoConstruction">En estos momentos estamos trabajando para mejorar la esperiencia en nuestra App y asi ofrecer mas alternativas</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f2f2f2</color>
+    <color name="colorPrimaryDark">#404040</color>
+    <color name="colorPrimaryLight">#e9e9e9</color>
+    <color name="blue">#00aedc</color>
+    <color name="colorAccent">#7d7d7d</color>
+    <color name="black">#000000</color>
+    <color name="red">#db3225</color>
+    <color name="white">#fff</color>
+
+    <!--Splash-->
+    <color name="splashStartColor">@color/colorPrimary</color>
+    <color name="splashEndColor">@color/colorPrimaryDark</color>
+
+    <!--Text-->
+    <color name="textColorTitle">@color/blue</color>
+    <color name="textColorDark">@color/black</color>
+    <color name="textColorLight">@color/colorAccent</color>
+    <color name="errorTextColor">@color/red</color>
+
+    <!--Buttons-->
+    <color name="button">@color/blue</color>
+</resources>
