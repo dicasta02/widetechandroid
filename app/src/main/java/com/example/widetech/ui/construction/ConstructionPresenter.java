@@ -4,7 +4,7 @@ import com.example.widetech.ui.base.BasePresenter;
 
 import javax.inject.Inject;
 
-public class ConstructionPresenter extends BasePresenter<ConstructionView>  {
+public class ConstructionPresenter extends BasePresenter<ConstructionView> {
 
     @Inject
     public ConstructionPresenter() {

@@ -5,7 +5,6 @@ import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.DialogFragment;
 
@@ -60,7 +59,7 @@ public class DialogsManager extends DialogFragment {
         return dialog.create();
     }
 
-    public void setAcceptListener(@NonNull String acceptTitle, DialogInterface.OnClickListener acceptListener) {
+    public void setAcceptListener(String acceptTitle, DialogInterface.OnClickListener acceptListener) {
         this.acceptTitle = acceptTitle;
         this.acceptListener = acceptListener;
     }

@@ -13,23 +13,23 @@ import dagger.Provides;
 public class ActivityModule {
     private Activity activity;
 
-    public ActivityModule(Activity activity){
+    public ActivityModule(Activity activity) {
         this.activity = activity;
     }
 
     @Provides
-    Activity provideActivity(){
+    Activity provideActivity() {
         return activity;
     }
 
     @Provides
     @ActivityContext
-    Context provideContext(){
+    Context provideContext() {
         return activity;
     }
 
     @Provides
-    FontHelper provideFont(){
+    FontHelper provideFont() {
         return new FontHelper(activity);
     }
 }

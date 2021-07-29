@@ -1,15 +1,13 @@
 package com.example.widetech.ui.construction;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.widetech.R;
 import com.example.widetech.ui.base.BaseActivity;
+import com.example.widetech.ui.login.LoginActivity;
 import com.example.widetech.utilities.FontHelper;
-
-import java.util.Objects;
 
 import javax.inject.Inject;
 
@@ -42,11 +40,12 @@ public class ConstructionActivity extends BaseActivity implements ConstructionVi
 
     @SuppressLint("NonConstantResourceId")
     @OnClick(R.id.btnBack)
-    public void onCLickBack(){
-        Objects.requireNonNull(getSupportActionBar()).setHomeButtonEnabled(true);
+    public void onCLickBack() {
+        Intent intent = new Intent(this, LoginActivity.class);
+        startActivity(intent);
+        finish();
 
     }
-
 
     private void initUI() {
         constructionPresenter.attachView(this);

@@ -3,7 +3,7 @@ package com.example.widetech;
 import android.app.Application;
 
 import com.example.widetech.di.component.ApplicationComponent;
-
+import com.example.widetech.di.component.DaggerApplicationComponent;
 import com.example.widetech.di.module.ApplicationModule;
 
 import io.realm.Realm;
@@ -15,7 +15,7 @@ public class CustomApp extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        
+
         setUpRealm();
     }
 

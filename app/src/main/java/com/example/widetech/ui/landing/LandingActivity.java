@@ -1,7 +1,5 @@
 package com.example.widetech.ui.landing;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +8,8 @@ import android.widget.TextView;
 import com.example.widetech.R;
 import com.example.widetech.ui.base.BaseActivity;
 import com.example.widetech.ui.construction.ConstructionActivity;
+import com.example.widetech.ui.login.LoginActivity;
+import com.example.widetech.ui.menu.MenuActivity;
 import com.example.widetech.utilities.FontHelper;
 
 import javax.inject.Inject;
@@ -54,13 +54,13 @@ public class LandingActivity extends BaseActivity implements LandingView {
     @SuppressLint("NonConstantResourceId")
     @OnClick(R.id.btnLogin)
     public void onClickLogin() {
-        callNextActivity(ConstructionActivity.class);
+        callNextActivity(LoginActivity.class);
     }
 
     @SuppressLint("NonConstantResourceId")
     @OnClick(R.id.btnCreateAccount)
     public void OnClickCreateAccount() {
-        callNextActivity(ConstructionActivity.class);
+        callNextActivity(MenuActivity.class);
     }
 
     @SuppressLint("NonConstantResourceId")
@@ -79,6 +79,5 @@ public class LandingActivity extends BaseActivity implements LandingView {
         startActivity(intent);
         finish();
     }
-
 
 }

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- =============================== -->
+    <!-- Array Icons -->
+    <!-- =============================== -->
+    <array name="menuIcons">
+        <item>@drawable/logo</item>
+        <item>@drawable/logo</item>
+        <item>@drawable/logo</item>
+        <item>@drawable/logo</item>
+        <item>@drawable/logo</item>
+
+    </array>
+
+    <!-- =============================== -->
+    <!-- ArMenuItemMenu -->
+    <!-- =============================== -->
+    <string-array name="menuList">
+        <item>Product</item>
+        <item>Product</item>
+        <item>Product</item>
+        <item>Product</item>
+        <item>Product</item>
+    </string-array>
+</resources>

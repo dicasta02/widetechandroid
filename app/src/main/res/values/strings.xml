@@ -9,4 +9,25 @@
     <string name="btnLoginFacebook">Login con Facebook</string>
     <string name="txtInConstruction">Pantalla en Construccion</string>
     <string name="txtInfoConstruction">En estos momentos estamos trabajando para mejorar la esperiencia en nuestra App y asi ofrecer mas alternativas</string>
+    <string name="msgEmail">Por favor ingrese el correo</string>
+    <string name="msgPassword">Por favor ingrese el Contraseña</string>
+    <string name="dialogWait">Por favor espere un momento</string>
+    <string name="msgUserNotExist">El usuario no existe</string>
+    <string name="msgErrorServer">Error en el servidor, Si el error continua, por favor contacte con uno de nuestros ascesores </string>
+    <string name="txtLogin">Iniciar Sesión</string>
+    <string name="hintEmail">Ingrese su Usuario</string>
+    <string name="hintPassword">Ingrese su Contraseña</string>
+    <string name="txtUser">Usuario</string>
+    <string name="txtPassword">Constraseña</string>
+    <string name="txtForgotEmail">¿Olvidaste tu Usuario?</string>
+    <string name="txtForgotPassword">¿Olvidaste tu Contraseña?</string>
+    <string name="txtNoAccount">¿No tienes Cuenta? <font color="#db3225">Registrate</font></string>
+    <string name="allNeverPermission">SmartMoney no tiene permiso para acceder %s, para dar acceso a este vaya a las configuraciones del teléfono</string>
+    <string name="allNeverPermissionLocation">a la localización</string>
+    <string name="allRequiredPermission">El permiso %s es requerido para que SmartMoney funcione correctamente.</string>
+    <string name="menuMoreOption">Mas</string>
+    <string name="menuContact">Contactenos</string>
+    <string name="msgRegister">Bienvenido!</string>
+    <string name="txtCall">Contactate con nosotros</string>
+    <string name="txtGoToMap">Ir Al Mapa</string>
 </resources>
